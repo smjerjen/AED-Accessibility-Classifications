@@ -154,7 +154,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(124,229,154,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'night_desert_extreme':
@@ -169,7 +169,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(218,25,0,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'poor_24h_good_all':
@@ -184,7 +184,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,207,33,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'poor_both':
@@ -199,7 +199,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(14,95,200,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'unclassified':
@@ -214,7 +214,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(212,201,220,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 default:
@@ -229,7 +229,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(82,85,223,1.0)',
-                interactive: true,
+                interactive: false,
             }
                     break;
             }
@@ -239,7 +239,7 @@
         map.getPane('pane_labels_STRICT_100m_squares_1').style['mix-blend-mode'] = 'normal';
         var layer_labels_STRICT_100m_squares_1 = new L.geoJson(json_labels_STRICT_100m_squares_1, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_labels_STRICT_100m_squares_1',
             layerName: 'layer_labels_STRICT_100m_squares_1',
             pane: 'pane_labels_STRICT_100m_squares_1',
